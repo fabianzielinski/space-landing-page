@@ -1,0 +1,40 @@
+/* Colors */
+
+$main-gray: rgb(84, 84, 83);
+$main-gray-hvr: rgb(173, 173, 164);
+$main-gray-lgh: rgb(226, 226, 213);
+$main-black: rgb(0, 0, 0);
+$main-white: rgb(255, 255, 255);
+$main-green: rgb(49, 145, 44);
+$main-green-hvr: rgb(83, 235, 75);
+$main-see: rgb(33, 110, 104);
+$main-see-hvr: rgb(67, 236, 222);
+$main-blue: rgb(44, 70, 119);
+$main-blue-hvr: rgb(89, 139, 231);
+
+/*Components colors*/
+
+/* Fonts Size */
+
+$text-fsize: 22px;
+$page-header-fsize: 24px;
+$section-header-fsize: 26px;
+$lg-link-fsize: 20px;
+$sm-link-fsize: 18px;
+$btn-fsize: 18px;
+$logo-fsize: 36px;
+
+/* Fonts */
+
+$font-roboto: "Roboto", sans-serif;
+// <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+$font-caveat: "Caveat", cursive;
+// @import url('https://fonts.googleapis.com/css?family=Caveat');
+$font-calibri: Calibri, sans-serif;
+
+/* Font Weight */
+
+$light-font: 300;
+$normal-font: 400;
+$average-font: 700;
+$heavy-font: 800;
