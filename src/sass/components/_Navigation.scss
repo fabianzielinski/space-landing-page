@@ -31,12 +31,20 @@
         &:hover {
           cursor: pointer;
         }
+        &:active {
+          border: 1px solid #ff4242;
+          box-sizing: border-box;
+          border-radius: 4px;
+        }
+        a {
+          text-decoration: none;
+        }
       }
-      .touch {
-        border: 1px solid #ff4242;
-        box-sizing: border-box;
-        border-radius: 4px;
-      }
+      // .touch {
+      //   border: 1px solid #ff4242;
+      //   box-sizing: border-box;
+      //   border-radius: 4px;
+      // }
     }
   }
 }

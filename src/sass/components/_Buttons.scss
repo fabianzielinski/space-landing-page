@@ -1,0 +1,38 @@
+button {
+  align-items: center;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  line-height: 120%;
+  outline: 0;
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    transform: scale(0.9, 0.9);
+  }
+}
+
+.bttn-normal {
+  padding: 18px 41px;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 30px;
+  border: none;
+}
+
+.bttn-primary {
+  background-color: #0e6fff;
+}
+.bttn-secondary {
+  background-color: #ff4242;
+}
+.bttn-small {
+  padding: 8px 18px;
+  border: 2px solid #ff4242;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #0e6fff;
+}
