@@ -1,40 +1,31 @@
 /* Colors */
 
-$main-gray: rgb(84, 84, 83);
-$main-gray-hvr: rgb(173, 173, 164);
-$main-gray-lgh: rgb(226, 226, 213);
-$main-black: rgb(0, 0, 0);
-$main-white: rgb(255, 255, 255);
-$main-green: rgb(49, 145, 44);
-$main-green-hvr: rgb(83, 235, 75);
-$main-see: rgb(33, 110, 104);
-$main-see-hvr: rgb(67, 236, 222);
-$main-blue: rgb(44, 70, 119);
-$main-blue-hvr: rgb(89, 139, 231);
-
-/*Components colors*/
+$primary-color: #0e6fff;
+$secendary-color: #ff4242;
+$black-color: #23242a;
+$white-color: #ffffff;
+$yellow-color: #ffc928;
+$gray-color: #b3aca2;
 
 /* Fonts Size */
 
-$text-fsize: 22px;
-$page-header-fsize: 24px;
-$section-header-fsize: 26px;
-$lg-link-fsize: 20px;
-$sm-link-fsize: 18px;
-$btn-fsize: 18px;
-$logo-fsize: 36px;
+$h1-font-size: 84px;
+$h2-font-size: 64px;
+$h3-font-size: 52px;
+$h4-font-size: 44px;
+$subtitle-font-size: 30px;
+$large-font-size: 28px;
+$medium-font-size: 24px;
+$small-font-size: 18px;
+$caption-font-size: 23px;
 
 /* Fonts */
 
-$font-roboto: "Roboto", sans-serif;
-// <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-$font-caveat: "Caveat", cursive;
-// @import url('https://fonts.googleapis.com/css?family=Caveat');
-$font-calibri: Calibri, sans-serif;
+// $font-roboto: "Roboto", sans-serif;
+$font-helvetica: "Helvetica Neue", sans-serif;
 
 /* Font Weight */
 
-$light-font: 300;
-$normal-font: 400;
-$average-font: 700;
-$heavy-font: 800;
+$light-font: 400;
+$normal-font: 500;
+$heavy-font: 700;
