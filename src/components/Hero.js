@@ -25,7 +25,7 @@ function Hero(props) {
           />
         </div>
         <div className="col-sm-12 col-md-5">
-          <Slider url="images/slider-bg.jpg" alt="slider clock" />
+          <Slider url="images/slider-bg.jpg" />
         </div>
       </div>
     </div>
