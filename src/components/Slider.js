@@ -1,11 +1,6 @@
 function Slider(props) {
   return (
-    <div
-      className="img"
-      style={{
-        backgroundImage: "url(images/slider-bg.jpg)",
-      }}
-    >
+    <div className="img" style={{ backgroundImage: `url(${props.url})` }}>
       <div className="nav row">
         <div className="col-sm-6 col-md-2 arrow-ico">
           <button className="arrow-left">
