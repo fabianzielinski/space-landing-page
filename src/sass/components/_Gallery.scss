@@ -1,0 +1,40 @@
+.gallery {
+  padding: 0 269px;
+  .row {
+    display: flex;
+    // justify-content: flex-end;
+    align-items: center;
+    .col-left {
+      //   display: flex;
+      //   justify-content: flex-start;
+      width: 100%;
+      height: 100%;
+      padding-right: 15px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .col-right {
+      //   display: flex;
+      //   justify-content: flex-end;
+      width: 100%;
+      height: 100%;
+      padding-left: 15px;
+      .info {
+        // text-align: justify;
+        margin: 0 0 0 134px;
+        h2 {
+          text-align: right;
+        }
+        .text {
+          text-align: justify;
+        }
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
