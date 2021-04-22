@@ -7,7 +7,7 @@ function Gallery(props) {
         </div>
         <div className="col-sm-12 col-md-8 col-right">
           <div className="info">
-            <h2>Requirements gathering and analysis for references.</h2>
+            <h3>Requirements gathering and analysis for references.</h3>
             <div className="text text-large">
               Convallis turpis erat tempus, viverra aliquet. Nullam viverra nam
               auctor sit ipsum malesuada a, duis volutpat. Convallis turpis erat
