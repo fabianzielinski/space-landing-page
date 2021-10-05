@@ -11,10 +11,19 @@
 
 /* Components */
 @import "components/Navigation";
+@import "components/Buttons";
+@import "components/Slider";
+@import "components/Review";
+@import "components/Gallery";
+@import "components/Player";
+@import "components/InfoLine";
 // @import "components/footer";
 
 /* Sections */
-@import "sections/App.scss"; // @import "sections/header";
+@import "sections/Hero.scss";
+@import "sections/InfoPlayer.scss";
+@import "sections/body.scss";
+//  @import "sections/header";
 // @import "sections/localization";
 // @import "sections/info";
 // @import "sections/gallery";

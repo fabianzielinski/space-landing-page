@@ -1,5 +1,6 @@
 .navigation {
   margin: 29px 41px;
+  // background-color: $light-yellow-color;
   .logo-space {
     display: flex;
     justify-content: flex-start;
@@ -27,16 +28,28 @@
         align-items: center;
         text-align: center;
         letter-spacing: -0.01em;
-        color: #b3aca2;
+
         &:hover {
           cursor: pointer;
         }
+        &:active {
+          border: 1px solid #ff4242;
+          box-sizing: border-box;
+          border-radius: 4px;
+        }
+        a {
+          text-decoration: none;
+          color: $gray-color;
+          &:active {
+            color: $primary-color;
+          }
+        }
       }
-      .touch {
-        border: 1px solid #ff4242;
-        box-sizing: border-box;
-        border-radius: 4px;
-      }
+      // .touch {
+      //   border: 1px solid #ff4242;
+      //   box-sizing: border-box;
+      //   border-radius: 4px;
+      // }
     }
   }
 }

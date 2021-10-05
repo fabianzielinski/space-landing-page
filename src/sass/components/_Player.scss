@@ -1,0 +1,35 @@
+.player {
+  .img {
+    position: relative;
+    // width: 675px;
+    // height: 675px;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 12px;
+    .icoPlayer {
+      background-color: $white-color;
+      position: absolute;
+      border-radius: 50%;
+      padding: 92px 92px 92px 102px;
+      opacity: 0.68;
+      display: flex;
+      //   &::before {
+      //     position: absolute;
+      //     background-color: $white-color;
+      //     opacity: 0.68;
+      //     top: 0px;
+      //     right: 0px;
+      //     bottom: 0px;
+      //     left: 0px;
+      //   }
+      top: 22%;
+      left: 22%;
+      svg {
+        position: relative;
+        width: 82px;
+        height: 71px;
+        opacity: 1;
+      }
+    }
+  }
+}

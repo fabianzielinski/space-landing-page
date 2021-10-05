@@ -28,11 +28,21 @@ function Navigation(props) {
         <div className="col-sm-12 col-md-6">
           <div className="menu">
             <ul>
-              <li>Home</li>
-              <li>Templates</li>
-              <li>Price</li>
-              <li>Help</li>
-              <li className="touch">Get in Touch</li>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/">Templates</a>
+              </li>
+              <li>
+                <a href="/">Price</a>
+              </li>
+              <li>
+                <a href="/">Help</a>
+              </li>
+              <li>
+                <a href="/">Get in Touch</a>
+              </li>
             </ul>
           </div>
         </div>

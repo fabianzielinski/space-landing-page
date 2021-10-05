@@ -1,15 +1,67 @@
 /* Typography */
+* {
+  font-style: normal;
+}
 
 h1 {
-	font-size: $page-header-fsize;
-	text-transform: uppercase;
+  font-size: $h1-font-size;
+  font-weight: $heavy-font;
+  line-height: 110%;
+  letter-spacing: -0.045em;
 }
 
 h2 {
-	font-size: $section-header-fsize;
-	font-weight: bold;
+  font-size: $h2-font-size;
+  font-weight: $heavy-font;
+  line-height: 110%;
+  letter-spacing: -0.045em;
 }
 
-p {
-	font-size: $text-fsize;
+h3 {
+  font-size: $h3-font-size;
+  font-weight: $heavy-font;
+  line-height: 110%;
+  letter-spacing: -0.045em;
+}
+
+h4 {
+  font-size: $h4-font-size;
+  font-weight: $normal-font;
+  line-height: 110%;
+  letter-spacing: -0.045em;
+}
+
+.text-subtitle {
+  font-size: $subtitle-font-size;
+  font-weight: $heavy-font;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+}
+
+.text-large {
+  font-size: $large-font-size;
+  font-weight: $light-font;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+}
+
+.text-medium {
+  font-size: $medium-font-size;
+  font-weight: $light-font;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+}
+
+.text-small {
+  font-size: $small-font-size;
+  font-weight: $heavy-font;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+}
+
+.caption {
+  font-size: $medium-font-size;
+  font-weight: $normal-font;
+  line-height: 120%;
+  letter-spacing: 0.11em;
 }
