@@ -1,14 +1,14 @@
 .player {
   .img {
     position: relative;
-    width: 675px;
-    height: 675px;
+    // width: 675px;
+    // height: 675px;
+    width: 30vw;
+    height: 30vw;
     border-radius: 12px;
-    // border: 1px solid black;
     .icoPlayer {
       background-color: $white-color;
       position: absolute;
-      // border: 2px solid black;
       border-radius: 50%;
       padding: 92px 92px 92px 102px;
       opacity: 0.68;
@@ -22,8 +22,8 @@
       //     bottom: 0px;
       //     left: 0px;
       //   }
-      top: 30%;
-      left: 30%;
+      top: 22%;
+      left: 22%;
       svg {
         position: relative;
         width: 82px;
